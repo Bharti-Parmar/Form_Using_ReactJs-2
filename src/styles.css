@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: black;
+  font-weight: bold;
+}
+
+h3 {
+  color: yellow;
+  text-align: center;
+}
+
+#table {
+  margin-top: 40px;
+  width: 800px;
+  border: 1px solid #d6d7da;
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto;
+  color: White;
+}
+
+#mypage {
+  width: 800px;
+  border: 1px solid #d6d7da;
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  /* margin: 100px auto; */
+}
+
+form label,
+form input,
+form select {
+  display: block;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 90% !important;
+}
+
+form input,
+form select {
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+}
+
+.button {
+  background-color: #00bfff;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
